@@ -34,12 +34,15 @@
                   <img class="mx-auto md:w[100%] lg:max-w-3xl relative lg:top-20 top-10 " src="./assets/hero-bg.png" alt=""> 
             </section>
 
+
+
+
             <!-- card section  -->
              <section class="w-11/12 mx-auto mt-42 lg:grid  grid-cols-12 gap-20 ">
 
              <section class="col-span-9">
                  <div>
-                   <h1 class=" font-bold text-2xl mb-6">Kitchenwarw</h1>
+                   <h1 class=" font-bold text-2xl mb-6">Kitchenware</h1>
                    <div class="grid lg:grid-cols-3 grid-cols-1 gap-5 text-center">
                 
                         <!-- card-1  -->
@@ -53,20 +56,22 @@
                          <h2 class="card-title font-bold  mx-auto">K. Accessories</h2>
                          <p class="text-gray-500"> <span>39.00 </span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
+
+
                       <div class="card bg-base-100  shadow-sm">
                        <figure class="bg-gray-200 m-4">
                          <img class="bg-gray-200  py-8  " src="./assets/kitchen-2.png" alt="" />
                        </figure>
                        <div class="card-body  " >
                         <p>⭐⭐⭐⭐⭐</p>
-                         <h2 class="card-title font-bold  mx-auto">K. Accessories</h2>
-                         <p class="text-gray-500"> <span>25.00 </span>TK</p>
+                         <h2 id="kitchen-title-2" class="card-title font-bold  mx-auto">K. Accessories</h2>
+                         <p  class="text-gray-500"> <span id="kitchen-price-2">25.00 </span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button id="kitchen-btn-2" class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
@@ -79,7 +84,7 @@
                          <h2 class="card-title font-bold  mx-auto">Home Cooker</h2>
                          <p class="text-gray-500"> <span>39.00 </span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
@@ -106,7 +111,7 @@
                          <h2 class="card-title font-bold  mx-auto">Sports Back Cap</h2>
                          <p class="text-gray-500"> <span>49.00 </span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
@@ -119,7 +124,7 @@
                          <h2 class="card-title font-bold  mx-auto">Full Jersey Set</h2>
                          <p class="text-gray-500"> <span>69.00 </span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
@@ -132,7 +137,7 @@
                          <h2 class="card-title font-bold  mx-auto">Sports cates</h2>
                          <p class="text-gray-500"> <span>159.00 </span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
@@ -159,7 +164,7 @@
                          <h2 class="card-title font-bold  mx-auto">Single Relax Chair</h2>
                          <p class="text-gray-500"> <span>185.00 </span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
@@ -170,9 +175,9 @@
                        <div class="card-body  " >
                         <p>⭐⭐⭐⭐⭐</p>
                          <h2 class="card-title font-bold  mx-auto">Children play</h2>
-                         <p class="text-gray-500"> <span>299.00 </span>TK</p>
+                         <p class="text-gray-500"> <span>299.00</span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
@@ -185,7 +190,7 @@
                          <h2 class="card-title font-bold  mx-auto">Flexible Sofa</h2>
                          <p class="text-gray-500"> <span>339.00 </span>TK</p>
                          <div class="card-actions justify-end">
-                           <button class="btn bg-pink-600 text-white mx-auto w-full"> Add to Cart</button>
+                           <button class="btn bg-pink-600 text-white mx-auto w-full cart-btn"> Add to Cart</button>
                          </div>
                        </div>
                      </div>
@@ -206,13 +211,34 @@
 
              </section>
              <aside class="col-span-3 mt-15">
-             <div class="bg-white p-5 rounded-lg">
+             <div class="bg-white p-5 rounded-lg ">
                  <h1 class="text-2xl">Have coupon?</h1>
-             <div class="join mt-3">
-         <input class="input join-item" placeholder="Cupon Code" />
-         <button class="btn bg-pink-600 rounded-r-lg  font-medium text-white">Apply</button>
+             <div class="join mt-3 w-full ">
+         <input class="input join-item " placeholder="Cupon Code " />
+         <button class="btn bg-pink-600 rounded-r-lg px-10 font-medium text-white">Apply</button>
           </div>
              </div>
+
+
+             <div class="cart-box bg-white mt-10 p-5">
+                 <h2 class="font-medium text-gray-400">Select Item....</h2>
+                 <div id="cart-container">
+                    
+                    </div>
+
+                 </div>
+
+
+              
+                        
+
+                 <div class="mt-5">
+                    <h2  class="font-medium">Total price: <span id="total-price" class="font-medium">0</span>TK</h2>
+                    <h2 class="font-medium">Total Quantity: <span id="total-quantity" class=" font-medium">0</span> Item</h2>
+                    <button  class="btn bg-pink-600 text-white mx-auto w-full mt-2">Make purchase</button>
+                 </div>
+             </div>
+
              </aside>
 
             </section>
