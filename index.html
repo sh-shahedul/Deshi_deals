@@ -269,8 +269,8 @@
              <div class="bg-white p-5 rounded-lg ">
                  <h1 class="text-2xl">Have coupon?</h1>
              <div class="join mt-3 w-full ">
-         <input class="input join-item " placeholder="Cupon Code " />
-         <button class="btn bg-pink-600 rounded-r-lg px-10 font-medium hover:bg-black text-white">Apply</button>
+         <input id="input-txt" class="input join-item " placeholder="Cupon Code " />
+         <button id="apply-btn" class="btn bg-pink-600 rounded-r-lg px-10 border-2 border-pink-600 font-medium hover:bg-black hover:border-0 text-white">Apply</button>
           </div>
              </div>
 
@@ -291,8 +291,9 @@
               
                         
 
-                 <div class="mt-5">
-                    <h2  class="font-medium">Total price: <span id="total-price" class="font-medium">0</span>TK</h2>
+                 <div class="mt-5 bg-white p-5 rounded-lg">
+                    <h2  class="font-medium">Total price: <span id="total-price" class="font-medium">0</span> TK</h2>
+                    <h2 id="total-discount" class="font-medium">Discount price: <span id="total-Discount" class="font-medium">0</span> TK</h2>
                     <h2 class="font-medium">Total Quantity: <span id="total-quantity" class=" font-medium">0</span> Item</h2>
                     <button  class="btn bg-pink-600 hover:bg-black text-white mx-auto w-full mt-2">Make purchase</button>
                  </div>

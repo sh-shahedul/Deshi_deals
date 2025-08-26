@@ -31,7 +31,7 @@
 
 
 //travarse techneq
-
+  const cupon = 'SHAHEDUL'
 function getElement(id){
     const element = document.getElementById(id)
     return element;
@@ -74,6 +74,26 @@ for(const cartButton of cartsBtn){
          
     })
 }
+
+// cupon button 
+     getElement('apply-btn').addEventListener('click',function(){
+      const inputTxt = getElement('input-txt').value.trim() 
+              getElement('input-txt').value= ''
+      const totalPrice = Number(getElement('total-price').innerText)
+      if(totalPrice===0){
+        alert('please select  item')
+      }
+      if(inputTxt === cupon){
+        const discount = totalPrice * 15/100;
+        const discountPrice = totalPrice - discount;
+        getElement('total-Discount').innerText = discountPrice
+      }else{
+        alert('Invalid Cupon!  please provide valid cupon')
+      }
+
+     })
+     
+
 
 
  const deleteBtn = getElement('delete-btn').addEventListener('click',function(){
