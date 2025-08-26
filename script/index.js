@@ -71,9 +71,16 @@ for(const cartButton of cartsBtn){
          const quantity = getElement('total-quantity').innerText
          const currentQuantity = Number(quantity)+1;
          getElement('total-quantity').innerText = currentQuantity;
+         
     })
 }
 
 
-
+ const deleteBtn = getElement('delete-btn').addEventListener('click',function(){
+       getElement('cart-container').innerText =''
+       getElement('total-quantity').innerText = 0
+       getElement('total-price').innerText = 0
+      
+       
+ })
 
